@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    padding: 1rem; 
+}
+nav a{
+    color: #6D9290;
+}
+
+.nav-links {
+    display: flex;
+    align-items:flex-end;
+    color: white;
+    text-decoration: none;
+  }
+  .name {
+    margin-right: 20px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links > * {
+    margin-left: 20px;
+  }

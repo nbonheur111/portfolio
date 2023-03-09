@@ -1,0 +1,28 @@
+
+  .photos li {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+  }
+  
+  .photos li {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .photos li img {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .photos li .description {
+    flex-grow: 1;
+  }
+
+  h1, h2{
+    color: #94c4b9;
+  }
+  

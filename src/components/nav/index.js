@@ -20,7 +20,7 @@ const Navbar = () => {
        
       </div>
     </div>
-    Hi
+    
 
     </nav>
     

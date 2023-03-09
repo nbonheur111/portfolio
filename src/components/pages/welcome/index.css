@@ -2,6 +2,9 @@ h3, button {
     color: #94c4b9;
 }
 
+.bod{
+    min-height: calc(100vh - 100px);
+}
  .bod button {
     flex-shrink: 0;
     background-color: #0B1930;

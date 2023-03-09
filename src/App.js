@@ -22,7 +22,7 @@ function App() {
         
       </Routes>
 
-     <Welcome />
+     {/* <Welcome /> */}
      <Footer />
     </div>
   );
