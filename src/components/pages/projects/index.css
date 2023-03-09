@@ -6,11 +6,6 @@
     align-items: center; 
   }
   
-  .photos li {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-  }
   
   .photos li img {
     height: 200px;

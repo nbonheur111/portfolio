@@ -19,13 +19,13 @@ const Welcome = () => {
 
       </p>
 
-      <button>
+      
       <a href="https://www.linkedin.com/in/nbonheur111/" target="_blank" rel="noopener noreferrer">
       Let's Connect
 
       </a>
         
-      </button>
+      
 
     </div>
   )

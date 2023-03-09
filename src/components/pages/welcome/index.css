@@ -3,14 +3,36 @@ h3, button {
 }
 
 .bod{
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 200px);
 }
- .bod button {
+ .bod  a { 
     flex-shrink: 0;
     background-color: #0B1930;
     padding: 10px;
+    max-width: 200px;
+    text-decoration: none;
 
 }
+ .bod  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #94c4b9;
+    color: #94c4b9;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid #94c4b9;
+  
+}
+ a:hover {
+    background-color: #0d2430;
+    cursor: pointer;
+    border: 2px solid #94c4b9;
+
+ }
+
 .software, p {
     color: #858FA9;
 
@@ -20,7 +42,7 @@ h3, button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
+    /* padding: 100px; */
 }
 
 p{
