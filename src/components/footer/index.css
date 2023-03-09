@@ -1,9 +1,14 @@
 footer{
-    display: flex;
-    justify-content: center;
-    background-color:   #a3d1c9;
-    height: 100px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #a3d1c9;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  padding: 0 20px;
 }
 
 .social-icons {
@@ -11,6 +16,15 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    width: 100%;
+
+  }
+
+  .credits {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
   }
   
   .social-icons a {
