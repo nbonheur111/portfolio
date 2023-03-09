@@ -1,0 +1,25 @@
+h3, button {
+    color: #94c4b9;
+}
+
+ .bod button {
+    flex-shrink: 0;
+    background-color: #0B1930;
+    padding: 10px;
+
+}
+.software, p {
+    color: #858FA9;
+
+}
+
+.bod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+p{
+    max-width: 500px;
+}
